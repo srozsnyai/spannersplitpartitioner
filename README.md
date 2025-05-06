@@ -1,5 +1,12 @@
 # Spanner Pre-Splitting Partitioning Utils
 
+There are currently two partitioning modes supported:
+* **UUIDs** 
+    * `uuid_partitioner.py`
+* **Nano IDs** 
+    * `nanoid_partitioner.py` 
+    * This supports custom length nano ids and characterset customization options
+
 ## UUID Partitioner
 
 This script splits the range of UUIDs into equal partitions.
